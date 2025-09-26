@@ -49,7 +49,7 @@ services:
   playwright-service:
     # NOTE: If you don't want to build the service locally,
     # uncomment the build: statement and comment out the image: statement
-    # image: ghcr.io/firecrawl/playwright-service:latest
+    image: ghcr.io/firecrawl/playwright-service:latest
     build: apps/playwright-service-ts
     environment:
       PORT: 3000
